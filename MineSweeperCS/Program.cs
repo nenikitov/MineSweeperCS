@@ -61,9 +61,9 @@ namespace MineSweeper {
             #endregion
         }
 
-        static (int width, int height, int density) ParseArguments(string[] args, int w=10, int h=5, int d=15) {
+        static (int width, int height, int density) ParseArguments(string[] args, int w = 10, int h = 5, int d = 15) {
             // Density
-            if(args.Length > 0) if(!int.TryParse(args[0], out d)) Help();
+            if(args.Length > 0) if(!int.TryParse(args[0], out d) || d < 0 || d > 100) Help();
 
             // Size
             if(args.Length > 1) if(!int.TryParse(args[1], out w)) Help(); else h = w;
@@ -78,6 +78,7 @@ namespace MineSweeper {
             Console.WriteLine("Mine sweeper, arrow keys to navigate, 'Z' to open tile, 'X' to flag tile");
             Console.WriteLine("Arguments: [<density>] [<width>] [<height>]");
             Console.WriteLine("\t<density> : Percentage of mines in the field (default: 15)");
+            Console.WriteLine("\t\tmust between 0 and 100");
             Console.WriteLine("\t<width> : Number of columns (default: 10)");
             Console.WriteLine("\t<height> : Number of rows (default: 5)");
             Console.WriteLine("\t\t height will be the same as width if not specified");

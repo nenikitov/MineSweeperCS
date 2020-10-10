@@ -23,9 +23,6 @@ namespace MineSweeper {
         #region Constructor
 
         public MineSweeper(int width, int height, int density, Dictionary<TileStatus, ConsoleColor> colors) {
-            // 'density' has to be between 0 and 100
-            density = density < 0 ? 0 : density > 100 ? 100 : density;
-
             this.Width = width;
             this.Height = height;
             this.Colors = colors;

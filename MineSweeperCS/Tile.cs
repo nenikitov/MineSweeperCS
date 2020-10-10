@@ -14,6 +14,8 @@ namespace MineSweeper {
     };
 
     public class Tile {
+        #region Properties
+
         /// <summary>
         /// Current status of the tile, can be converted to <see cref="char"/> implictly
         /// </summary>
@@ -26,10 +28,16 @@ namespace MineSweeper {
         /// Number of adjacent mines, maximum 8, default value is 0
         /// </summary>
         public int AdjacentMinesCount { get; set; }
+        #endregion
+
+        #region Contructor
 
         public Tile(TileStatus status) {
             this.Status = status;
         }
+        #endregion
+
+        #region Public Methods
 
         public void Open() {
             this.Status = this.IsMine?TileStatus.Mine:TileStatus.Opened;
@@ -48,5 +56,6 @@ namespace MineSweeper {
                     break;
             }
         }
+        #endregion
     }
 }
