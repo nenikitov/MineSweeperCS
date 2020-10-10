@@ -12,7 +12,6 @@ namespace MineSweeper {
 
         public Tile[] Tiles { get; set; }
         public int Width { get; set; }
-        public int Height { get; set; }
         public int Cursor { get; set; }
         public Dictionary<TileStatus, ConsoleColor> Colors { get; set; }
         public Player Player { get; set; }
@@ -24,7 +23,6 @@ namespace MineSweeper {
 
         public MineSweeper(int width, int height, int density, Dictionary<TileStatus, ConsoleColor> colors) {
             this.Width = width;
-            this.Height = height;
             this.Colors = colors;
             this.Cursor = 0;
 
