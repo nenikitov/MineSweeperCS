@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{D6F0568B-3295-44C4-95FF-2A3C86C757A6}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>NewMineSweeper</RootNamespace>
-    <AssemblyName>NewMineSweeper</AssemblyName>
+    <RootNamespace>MineSweeper</RootNamespace>
+    <AssemblyName>MineSweeper</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
