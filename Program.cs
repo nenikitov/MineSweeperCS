@@ -9,7 +9,7 @@ namespace NewMineSweeper
     class Program
     {
         static int[] fieldSize = { 10, 5 };
-        static double difficulty = 0.2;
+        static double difficulty = 0.15;
         enum DisplayTileStatus
         {
             Unopened,
