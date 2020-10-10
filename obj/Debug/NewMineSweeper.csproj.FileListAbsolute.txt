@@ -1,0 +1,7 @@
+D:\Projects\VisualStudio\NewMineSweeper\NewMineSweeper\obj\Debug\NewMineSweeper.csprojAssemblyReference.cache
+D:\Projects\VisualStudio\NewMineSweeper\NewMineSweeper\obj\Debug\NewMineSweeper.csproj.CoreCompileInputs.cache
+D:\Projects\VisualStudio\NewMineSweeper\NewMineSweeper\bin\Debug\NewMineSweeper.exe.config
+D:\Projects\VisualStudio\NewMineSweeper\NewMineSweeper\bin\Debug\NewMineSweeper.exe
+D:\Projects\VisualStudio\NewMineSweeper\NewMineSweeper\bin\Debug\NewMineSweeper.pdb
+D:\Projects\VisualStudio\NewMineSweeper\NewMineSweeper\obj\Debug\NewMineSweeper.exe
+D:\Projects\VisualStudio\NewMineSweeper\NewMineSweeper\obj\Debug\NewMineSweeper.pdb
